@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="images/sake_logo.png" alt="">
+            </div>
+            
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-item">
+                <a href="home.html" >Home</a>
+                <a href="about.html" >About</a>
+                <a href="suit.html" >Suits</a>
+                <a href="shoes.html" >Shoes</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="gallery.html" >Gallery</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <main class="contact-container">
+        <div class="contact-info">
+            <h1>Contact us</h1>
+            <div class="info-items">
+                <div class="info-item">
+                    <img src="images/phone-call.png" alt="">
+                    <div>
+                        <h3>Phone</h3>
+                        <p>8 707 112 65 55</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <img src="images/mail.png" alt="">
+                    <div>
+                        <h3>Email</h3>
+                        <p>$ake@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <img src="images/instagram.png" alt="">
+                    <div>
+                        <h3>Instagram</h3>
+                        <p>@$ake_suit</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <img src="images/location.png" alt="">
+                    <div>
+                        <h3>Address</h3>
+                        <p>Pushkina 154a</p>
+                        <a href="https://2gis.kz/taraz/firm/70000001060683268" class="map-link">Open on map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Leave a request</h2>
+            <form id="form" method="POST">
+                <div class="form-group">
+                    <input type="text" id="customer" name="Customer" list="customers" required>
+                    <label for="customer">Name</label>
+                    <datalist id="customers"></datalist>
+                </div>
+        
+                <div class="form-group">
+                    <input type="text" id="number" name="Number" list="numbers" required>
+                    <label for="number">Number</label>
+                    <datalist id="numbers"></datalist>
+                </div>
+        
+                <div class="form-group">
+                    <input type="text" id="clothes" name="Clothes" list="clothes" required>
+                    <label for="clothes">Your clothes</label>
+                    <datalist id="clothes"></datalist>
+                </div>
+        
+                <div class="form-group">
+                    <textarea id="message" name="Message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+        
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h2>Welcome to $aKe</h2>
+                <p>Your go-to destination for elegant suits and timeless style. Visit us or get in touch!</p>
+                <div class="social-icons">
+                    <a href="https://www.google.com/maps/place/Your+Location" target="_blank" title="Location">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/marker.png" alt="Location" />
+                    </a>
+                    <a href="https://www.instagram.com/your-profile" target="_blank" title="Instagram">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" />
+                    </a>
+                    <a href="mailto:your-email@example.com" title="Email">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/mail.png" alt="Email" />
+                    </a>
+                    <a href="tel:+1234567890" title="Phone">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone" />
+                    </a>
+                </div>
+                <p>Pushkina 154a, Taraz, Kazakhstan Dzhambyl</p>
+                <p>Open: Mon-Fri 9am - 6pm</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+</body>
+<script src="contact.js"></script>
+</html>
